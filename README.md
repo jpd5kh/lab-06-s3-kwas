@@ -1,3 +1,11 @@
+## My S3 buckets
+
+https://public-alexkwas.s3.amazonaws.com/index.html
+https://secret-alexkwas.s3.amazonaws.com/pg79832.txt
+I would choose a public bucket when I don't care who sees the information in the URL and I want anybody to be able to access it.
+I would choose a presigned URL when I only want someone to have access for a little bit. This could be if I am asking someone to edit private information for me. In this way, they won't be able to see it after they finish their edits.
+
+
 # Lab 06: Working with S3 Storage
 
 The goal of this lab is to get you comfortable with **Amazon S3** object storage, building on what you have learned about the command line, AWS accounts, and scripting. You will stage a collection of 100 books from [Project Gutenberg](https://www.gutenberg.org/) in a **public** bucket that anyone can browse in a web browser, and share a single book from a **private** bucket with a time-limited presigned URL.
